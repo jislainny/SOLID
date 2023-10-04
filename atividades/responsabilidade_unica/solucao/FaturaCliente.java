@@ -1,5 +1,5 @@
-  public class ClienteDatabase {
+  public class FaturaCliente{
+    
  public void gerarFatura() {
-        
  }
     }
