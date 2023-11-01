@@ -5,7 +5,9 @@ No entanto, essa implementação viola o Princípio de Segregação de Interface
 pois nem todas as classes que implementam a interface Machine precisam de todas as funcionalidades.
  */
 public interface Machine {
+
     void print();
+
     void scan();
     void fax();
 }
