@@ -9,15 +9,13 @@ Por exemplo, se tentarmos definir a largura e a altura de um objeto Square de fo
 o resultado será inconsistente.
 */ 
 public class Square extends Rectangle {
-    @Override
-    public void setWidth(int width) {
-        this.width = width;
-        this.height = width;
+    public void setWidth(int side) {
+        this.width = side;
+        this.height = side;
     }
 
-    @Override
-    public void setHeight(int height) {
-        this.width = height;
-        this.height = height;
+    public void setHeight(int side) {
+        this.width = side;
+        this.height = side;
     }
 }
